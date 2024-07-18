@@ -18,7 +18,7 @@ const Header = () => {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link as={Link} to="" className="cursor-pointer">
+        <Navbar.Link as={Link} to="/" className="cursor-pointer">
           Home
         </Navbar.Link>
       </Navbar.Collapse>

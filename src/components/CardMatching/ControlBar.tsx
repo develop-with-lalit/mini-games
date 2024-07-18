@@ -21,7 +21,7 @@ const ControlBar = ({
         </p>
 
         <button onClick={resetGame} className="mx-auto ">
-          <img src="/assets/reset.png" alt="reset button" />
+          <img src="assets/reset.png" alt="reset button" />
         </button>
       </div>
     </>

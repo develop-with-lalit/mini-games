@@ -13,7 +13,7 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-        <div className="mt-5 p-2 sm:p-12 w-full flex flex-col min-h-[80vh]">
+        <div className="mt-14 sm:mt-5 p-2 sm:p-12 w-full flex flex-col min-h-[80vh]">
           <CardMatching />
         </div>
         <Footer />
