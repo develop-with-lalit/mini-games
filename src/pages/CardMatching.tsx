@@ -164,9 +164,11 @@ const CardMatching = () => {
   const resetGame = () => {
     setGamePlay(initiateRandomStartGameplay());
     setIsWin(false);
+    setOpenCards({});
   };
 
   const handleOnCardPress = (id: string) => {
+    console.log(id, gamePlay);
     setGamePlay((gamePlay) => {
       let openId = "";
       let localOpenCards = { ...openCards };
