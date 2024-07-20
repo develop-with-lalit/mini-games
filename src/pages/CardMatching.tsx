@@ -168,7 +168,6 @@ const CardMatching = () => {
   };
 
   const handleOnCardPress = (id: string) => {
-    console.log(id, gamePlay);
     setGamePlay((gamePlay) => {
       let openId = "";
       let localOpenCards = { ...openCards };
