@@ -10,6 +10,7 @@ export const wordData: WordAndDescription[] = [
     description: "having a strong desire to achieve success",
   },
   { word: "diligent", description: "showing careful and persistent work" },
+
   {
     word: "enthusiastic",
     description: "having or showing intense interest or excitement",
