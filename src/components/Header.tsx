@@ -21,6 +21,19 @@ const Header = () => {
         <Navbar.Link as={Link} to="/" className="cursor-pointer">
           Home
         </Navbar.Link>
+        <Navbar.Link as={Link} to="/card-matching" className="cursor-pointer">
+          Card Matching
+        </Navbar.Link>
+        <Navbar.Link
+          as={Link}
+          to="/stone-paper-scissors"
+          className="cursor-pointer"
+        >
+          Stone Paper Scissors
+        </Navbar.Link>
+        <Navbar.Link as={Link} to="/word-guess" className="cursor-pointer">
+          Word Guess
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
