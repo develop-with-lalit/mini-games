@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
@@ -14,7 +14,7 @@ import HomePage from "./pages/HomePage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <div className="mt-14 sm:mt-5 p-2 sm:p-12 w-full flex flex-col min-h-[80vh]">
           {/* Route components are rendered if the path
@@ -31,7 +31,7 @@ function App() {
           <div></div>
         </div>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
